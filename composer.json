@@ -1,0 +1,25 @@
+{
+    "name": "certificationy/applicant",
+    "description": "Applicant",
+    "type": "project",
+    "require": {
+        "psr/http-message": "^1.0",
+        "guzzlehttp/psr7": "^1.4",
+        "http-interop/response-sender": "^1.0",
+        "http-interop/http-middleware": "^0.4.1",
+        "php-di/php-di": "^5.4",
+        "nikic/fast-route": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael COULLERET",
+            "email": "michael.coulleret@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Applicant\\": "src/"
+        }
+    }
+}
